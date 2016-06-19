@@ -6,7 +6,7 @@
 - 干货收藏：SQLite
 
 ## Download
-### [安装包](https://github.com/simple24/Good/blob/master/Good1.0.apk)
+### [安装包](https://github.com/simple24/Good/raw/master/Good1.0.apk)
 
 ## Screenshow
 ![](https://github.com/simple24/Good/blob/master/5.gif)..
