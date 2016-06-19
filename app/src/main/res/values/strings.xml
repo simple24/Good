@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Good</string>
+    <string name="main_home">主页</string>
+    <string name="main_today">今日</string>
+    <string name="main_collect">收藏</string>
+
+    <string name="main_wifi">仅wifi加载图片</string>
+    <string name="main_me">关于</string>
+    <string name="main_exit">注销</string>
+
+    <string name="about_me">simplexu，Android奋斗者\n
+                            爱科比爱文艺爱互联网\n
+                            欢迎关注我的：\n
+                            微信公众号：simplexu24\n
+                            GitHub：https://github.com/simple24</string>
+    <string name="about_app">Good是gank.io第三方客户端\n致力于分享优质的互联网技术\n
+                            另有每天福利相送，祝你每天鸡血满满\n
+                            感谢代码家的接口，感谢为开源奉献的开发者\n
+                            愿你我用双手改变世界</string>
+    <string name="about_apptype">Good   V1.0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
