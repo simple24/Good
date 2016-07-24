@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import com.jude.easyrecyclerview.adapter.BaseViewHolder;
 import com.simplexu.good.R;
-import com.simplexu.good.model.bean.GoodBean;
+import com.simplexu.good.model.GoodBean;
 import com.simplexu.good.utils.TimeUtils;
 
 /**

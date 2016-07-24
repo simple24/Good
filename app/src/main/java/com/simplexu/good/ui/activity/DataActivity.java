@@ -7,16 +7,13 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.simplexu.good.R;
-import com.simplexu.good.model.bean.CollectBean;
+import com.simplexu.good.model.CollectBean;
 import com.simplexu.good.utils.CollectDB;
 import com.simplexu.good.utils.ShareUtils;
 

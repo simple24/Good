@@ -10,13 +10,12 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.jude.easyrecyclerview.EasyRecyclerView;
 import com.jude.easyrecyclerview.adapter.RecyclerArrayAdapter;
 import com.simplexu.good.R;
-import com.simplexu.good.model.bean.GoodBean;
-import com.simplexu.good.presenter.impl.HomePresenterImpl;
+import com.simplexu.good.model.GoodBean;
+import com.simplexu.good.presenter.HomePresenter;
 import com.simplexu.good.ui.activity.DataActivity;
 import com.simplexu.good.ui.activity.ImgActivity;
 import com.simplexu.good.ui.adapter.DataAdapter;
@@ -33,7 +32,7 @@ public class HomeFragment extends Fragment implements IHomeView{
     private ImgAdapter mImgAdapter;
     private DataAdapter mDataAdapter;
 
-    private HomePresenterImpl mHomePresenter;
+    private HomePresenter mHomePresenter;
 
     private Handler handler = new Handler();
     private int page = 1;
@@ -69,7 +68,7 @@ public class HomeFragment extends Fragment implements IHomeView{
 
     private void initView() {
 
-        mHomePresenter = new HomePresenterImpl(this);
+        mHomePresenter = new HomePresenter(this);
 
         if (title.equals("福利")){
             mHomePresenter.getData("福利",20,1);

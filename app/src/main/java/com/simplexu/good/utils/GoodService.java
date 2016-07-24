@@ -1,6 +1,6 @@
 package com.simplexu.good.utils;
 
-import com.simplexu.good.model.bean.GoodBean;
+import com.simplexu.good.model.GoodBean;
 
 import retrofit2.http.GET;
 import retrofit2.http.Path;

@@ -5,7 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.simplexu.good.model.bean.CollectBean;
+import com.simplexu.good.model.CollectBean;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -5,7 +5,7 @@ import android.view.ViewGroup;
 
 import com.jude.easyrecyclerview.adapter.BaseViewHolder;
 import com.jude.easyrecyclerview.adapter.RecyclerArrayAdapter;
-import com.simplexu.good.model.bean.CollectBean;
+import com.simplexu.good.model.CollectBean;
 
 /**
  * Created by Simple on 2016/6/3.

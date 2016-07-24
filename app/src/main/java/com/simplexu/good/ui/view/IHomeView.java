@@ -1,6 +1,6 @@
 package com.simplexu.good.ui.view;
 
-import com.simplexu.good.model.bean.GoodBean;
+import com.simplexu.good.model.GoodBean;
 
 import java.util.List;
 

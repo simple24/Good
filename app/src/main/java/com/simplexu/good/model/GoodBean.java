@@ -1,4 +1,4 @@
-package com.simplexu.good.model.bean;
+package com.simplexu.good.model;
 
 import java.util.List;
 

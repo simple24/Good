@@ -1,7 +1,6 @@
 package com.simplexu.good.utils;
 
 import com.simplexu.good.config.ApiData;
-import com.simplexu.good.model.bean.GoodBean;
 
 import java.util.concurrent.TimeUnit;
 
@@ -9,11 +8,8 @@ import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
-import rx.Scheduler;
 import rx.Subscriber;
 import rx.android.schedulers.AndroidSchedulers;
-import rx.functions.Action;
-import rx.functions.Action1;
 import rx.schedulers.Schedulers;
 
 /**
@@ -49,11 +45,11 @@ public class GoodUtils {
         return SingletonHolder.INSTANCE;
     }
 
-    public void getGood(Action1<GoodBean> action1, Action1<Throwable> action2,String type, int count, int page){
+    public void getGood(Subscriber subscriber,String type, int count, int page){
         mGoodService.getGood(type, count, page)
                 .subscribeOn(Schedulers.io())
                 .unsubscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(action1,action2);
+                .subscribe(subscriber);
     }
 }

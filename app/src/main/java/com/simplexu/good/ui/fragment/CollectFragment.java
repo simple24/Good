@@ -15,7 +15,7 @@ import com.afollestad.materialdialogs.AlertDialogWrapper;
 import com.jude.easyrecyclerview.EasyRecyclerView;
 import com.jude.easyrecyclerview.adapter.RecyclerArrayAdapter;
 import com.simplexu.good.R;
-import com.simplexu.good.model.bean.CollectBean;
+import com.simplexu.good.model.CollectBean;
 import com.simplexu.good.ui.activity.DataActivity;
 import com.simplexu.good.ui.adapter.CollectAdapter;
 import com.simplexu.good.utils.CollectDB;

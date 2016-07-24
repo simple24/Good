@@ -6,7 +6,7 @@ import android.widget.ImageView;
 
 import com.jude.easyrecyclerview.adapter.BaseViewHolder;
 import com.simplexu.good.R;
-import com.simplexu.good.model.bean.GoodBean;
+import com.simplexu.good.model.GoodBean;
 import com.squareup.picasso.Picasso;
 
 /**

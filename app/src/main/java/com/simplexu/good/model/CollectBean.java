@@ -1,4 +1,4 @@
-package com.simplexu.good.model.bean;
+package com.simplexu.good.model;
 
 /**
  * Created by Simple
